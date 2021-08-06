@@ -1,0 +1,34 @@
+import java.util.Locale;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello world!");
+		
+		int q = 5;
+		float w = 10;
+		double r = 20.5467;
+		String t = "mazinha";
+		byte y = 7;
+		
+		Locale.setDefault(Locale.US);
+		
+		System.out.printf("%.2f%n",r);
+		
+		System.out.println(q);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
