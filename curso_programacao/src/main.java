@@ -28,6 +28,10 @@ public class main {
 		
 		System.out.println("teste");
 		
+		System.out.println("teste");
+		System.out.println("teste2");
+
+		
 		
 		
 		

@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/home/rafael/Documents/ws-eclipse/.metadata/.plugins/org.eclipse.jdt.core
-4071426965.index
-3961804091.index
