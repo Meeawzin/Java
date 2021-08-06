@@ -26,6 +26,7 @@ public class main {
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f%n", measure);
 		
+		System.out.println("teste");
 		
 		
 		
