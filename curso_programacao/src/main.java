@@ -3,7 +3,9 @@ import java.util.Locale;
 public class main {
 
 	public static void main(String[] args) {
-			
+		
+		//exercicio de fixação
+		
 		String product1 = "Computer";
 		String product2 = "Office desk";
 		
@@ -25,13 +27,49 @@ public class main {
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f%n", measure);
-		
-		System.out.println("teste");
-		
-		System.out.println("teste");
-		System.out.println("teste2");
-		System.out.println("teste3");
+		System.out.println();
 
+		
+		//Calcular perimetro da figura geometrica
+		
+		double b, B, h, area;
+		
+		b = 6;
+		B = 8;
+		h = 5;
+		area = (b + B)/ 2.0 * h;
+		
+		System.out.println(area);
+		
+		//Casting
+		
+		int x,y;
+		double resultado;
+		
+		x = 5;
+		y = 2;
+		resultado = (double) x/y;
+		
+		System.out.println(resultado);
+		
+		
+		double a;
+		int c;
+		
+		a = 5.0;
+		c = (int) a;
+		
+		System.out.println(c);
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
 		
 		
 		
