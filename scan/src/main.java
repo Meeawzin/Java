@@ -4,8 +4,6 @@ public class main {
 
 	public static void main(String[] args) {
 	
-//aprendendo scanner 
-
 		Scanner sc = new Scanner (System.in);
 		
 		String x;
@@ -20,10 +18,10 @@ public class main {
 		System.out.println("Digite sua idade: " + y);
 		System.out.println("Digite sua altura: " + z);
 		
-		
-	
+				
 		sc.close();
-			
+		
+		
 	}
 
 }
