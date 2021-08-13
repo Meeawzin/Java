@@ -5,7 +5,7 @@ public class main {
 	public static void main(String[] args) {
 		
 		//fixação exercicio out
-		
+
 		String product1 = "Computer";
 		String product2 = "Office desk";
 		
@@ -15,13 +15,13 @@ public class main {
 		
 		double price1 = 2100.0;
 		double price2 = 650.50;
-		double measure = 53.234567;
+		double measure = 52.234567;
 		
 		System.out.println("Products: ");
 		System.out.printf("%s, which price is $ %.2f%n", product1, price1);
 		System.out.printf("%s, which price is $ %.2f%n", product2, price2);
 		System.out.println();
-		System.out.printf("Record: %d years old, code %d and gender: %c%n", age, code, gender);
+		System.out.printf("Record: %d years old, code %d ang gender: %c%n", age, code, gender);
 		System.out.println();
 		System.out.printf("Measue with eight decimal places: %.8f%n", measure);
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
@@ -29,7 +29,8 @@ public class main {
 		System.out.printf("US decimal point: %.3f%n", measure);
 		System.out.println();
 
-		//fixação aritmética
+		
+		//aritmética
 		
 		double b, B, h, area;
 		
@@ -39,25 +40,11 @@ public class main {
 		area = (b + B) / 2.0 * h;
 		
 		System.out.println(area);
-		System.out.println();
 
 
-		//fixação casting
 		
-		int x , y; 
-		double resultado;
+				
 		
-		x = 5;
-		y = 2;
-		resultado = (double) x / y;
-		
-		System.out.println(resultado);
-		
-		
-		
-		
-
-
 				
 		
 	
@@ -65,14 +52,7 @@ public class main {
 		
 		
 		
-		
-		
-		
-				
-		
-		
-		
-		
+	
 		
 	}
 
