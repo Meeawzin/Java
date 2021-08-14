@@ -9,28 +9,23 @@ public class Main {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		int codigo1, codigo2, numero1, numero2;
-		double valor1, valor2, total;
+		int cod1, cod2, num1, num2;
+		double price1, price2, total;
+			
+		cod1 = sc.nextInt();
+		num1 = sc.nextInt();
+		price1 = sc.nextDouble();
+		cod2 = sc.nextInt();
+		num2 = sc.nextInt();
+		price2 = sc.nextDouble();
+		total = num1 * price1 + num2 * price2;
 		
-		codigo1 = sc.nextInt();
-		numero1 = sc.nextInt();
-		valor1 = sc.nextDouble();
-
+		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
 		
-		codigo2 = sc.nextInt();
-		numero2 = sc.nextInt();
-		valor2 = sc.nextDouble();
-		
-		total = valor1 * numero1 + valor2 * numero2;
-		
-		
-		System.out.printf("VALOR A PAGAR: R$%.2f%n ", total);
-		
+			
 		sc.close();
-			
-			
 		
-		
+	
 	}
 
 }

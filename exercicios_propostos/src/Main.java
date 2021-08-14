@@ -6,7 +6,7 @@ public class Main {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		int x, y, soma;
+		int x ,y , soma;
 		
 		x = sc.nextInt();
 		y = sc.nextInt();
@@ -14,12 +14,10 @@ public class Main {
 		
 		System.out.println("SOMA = " + soma);
 		
+		
+		
 		sc.close();
-		
-		
-		
-		
-		
+			
 	}
 
 }
