@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		//fixação sysout
+		//exercicio de fixação sysout formatação
 		
 		String product1 = "Computer";
 		String product2 = "Office desk";
@@ -15,7 +15,7 @@ public class main {
 		
 		double price1 = 2100.0;
 		double price2 = 650.50;
-		double measure = 53.234567;
+		double measure = 52.234567;
 		
 		System.out.println("Products: ");
 		System.out.printf("%s, which price is $ %.2f%n", product1, price1);
@@ -27,8 +27,14 @@ public class main {
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f%n", measure);
-		
 
+	
+
+				
+		
+		
+		
+		
 		
 
 

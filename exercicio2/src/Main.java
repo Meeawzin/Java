@@ -8,18 +8,17 @@ public class Main {
 		Locale.setDefault(Locale.US);
 
 		Scanner sc = new Scanner (System.in);
+				
 		
-		double x, area;
+		double raio, area;
 		
-		x = sc.nextDouble();
-		area = 3.14159 * x * x;
+		raio = sc.nextDouble();
+		area = 3.14159 * raio * raio;
 		
-		System.out.printf("A = %.4f%n ", area);
-		
-		
+		System.out.printf("A = %.4f%n", area);
 		
 		sc.close();
-			
+		
 		
 	}
 

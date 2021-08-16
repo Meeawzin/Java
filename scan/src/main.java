@@ -10,11 +10,11 @@ public class main {
 		int y;
 		double z;
 		
-		x = sc.next();
+		x = sc.nextLine();
 		y = sc.nextInt();
 		z = sc.nextDouble();
 		
-		System.out.println("Digite seu nome: " + x);
+		System.out.println("Digite seu nome completo: " + x);
 		System.out.println("Digite sua idade: " + y);
 		System.out.println("Digite sua altura: " + z);
 		
