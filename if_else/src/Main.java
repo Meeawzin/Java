@@ -20,6 +20,7 @@ public class Main {
 		}	
 		else {
 			System.out.println("Boa noite");
+			
 		}
 		
 		sc.close();	
