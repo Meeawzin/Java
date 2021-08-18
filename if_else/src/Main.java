@@ -4,28 +4,26 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner (System.in);
+	Scanner sc = new Scanner (System.in);
+	
+	int horas;
+	
+	System.out.println("Insira um horario:");
+
+	horas = sc.nextInt();
 		
-		int hora;
-		
-		System.out.println("Quantas horas?");
-		hora = sc.nextInt();
-		
-		
-		if (hora < 12) {
-			System.out.println("Bom dia");
-		}
-		else if (hora < 18) {
-			System.out.println("Boa tarde");
-		}	
-		else {
-			System.out.println("Boa noite");
+	if (horas < 12) {	
+		System.out.println("Bom dia");
+	}
+	else if (horas < 18) {	
+		System.out.println("Boa tarde");
+	}
+	else {	
+		System.out.println("Boa noite");	
+	}
+	
 			
-		}
-		
-		sc.close();	
-			
-		
+	sc.close();	
 			
 	}
 
