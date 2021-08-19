@@ -4,24 +4,37 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		
-		int inicio, fim, dura;
+		int cod, quant;
 		
-		inicio = sc.nextInt();
-		fim = sc.nextInt();
+		cod = sc.nextInt();
+		quant = sc.nextInt();
 		
+		double price;
 		
-		if (inicio < fim) {
-			dura = fim - inicio;
+		if (cod == 1) {
+			price = quant * 4.00;
 		}
-		else {	
-			dura = 24 - inicio + fim;
+		else if (cod == 2) {
+			price = quant * 4.50;
+		}
+		else if (cod == 3) {
+			price = quant * 5.00;
+		}
+		else if (cod == 4) {
+			price = quant * 2.00;
+		}
+		else {
+			price = quant * 1.50;
 		}
 		
-		System.out.println("O JOGO DUROU " + dura + "HORA(S)");
+		System.out.printf("Total: R$ %.2f%n", price);
+
 		
 		sc.close();
+			
+
 	}
 
 }
