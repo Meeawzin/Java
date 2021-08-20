@@ -10,16 +10,15 @@ public class Main {
 		
 		num = sc.nextInt();
 		
-		if (num % 2.0 == 0) {
-			System.out.println("ESTE NUMERO É PAR");	
+		if (num >= 0) {
+			System.out.println("NAO NEGATIVO");
 		}
 		else {
-			System.out.println("ESTE NUMERO É IMPAR");
+			System.out.println("NEGATIVO");
 		}
-		
 		
 		sc.close();
 		
 	}
-
+	
 }

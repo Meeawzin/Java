@@ -5,26 +5,21 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner (System.in);
+				
+		int A, B;
 		
-		int inicio, fim, dura;
-		
-		inicio = sc.nextInt();
-		fim = sc.nextInt();
-		
-		if (inicio > fim) {
-			
-			dura = 24 - inicio + fim;
-			
-			System.out.println("O JOGO DUROU " + dura + " HORA(S)");		
+		A = sc.nextInt();
+		B = sc.nextInt();
+	
+		if (A % B == 0 || B % A == 0) {
+			System.out.println("Sao multiplos");
 		}
 		else {
-			
-			dura = fim - inicio;
-			
-			System.out.println("O JOGO DUROU " + dura + " HORA(S)");
+			System.out.println("Nao sao multiplos");
 		}
 		
 		sc.close();
+	
 		
 	}
 

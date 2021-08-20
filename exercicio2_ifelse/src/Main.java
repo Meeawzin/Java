@@ -6,16 +6,15 @@ public class Main {
 
 		Scanner sc = new Scanner (System.in);
 		
-		int A, B;
+		int num;
 		
-		A = sc.nextInt();
-		B = sc.nextInt();
+		num = sc.nextInt();
 		
-		if (A % B == 0 || B % A == 0) {
-			System.out.println("Sao multiplos");
+		if (num % 2.0 == 0) {
+			System.out.println("PAR");
 		}
 		else {
-			System.out.println("Nao sao multiplos");
+			System.out.println("IMPAR");
 		}
 		
 		sc.close();

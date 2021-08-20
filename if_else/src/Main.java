@@ -11,7 +11,6 @@ public class Main {
 		horas = sc.nextInt();
 		
 		if (horas < 12) {
-		
 			System.out.println("Bom dia");
 		}
 		else if (horas < 20) {
