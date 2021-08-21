@@ -6,15 +6,13 @@ public class Main {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		int num;
+		int num = sc.nextInt();
 		
-		num = sc.nextInt();
-		
-		if (num >= 0) {
-			System.out.println("NAO NEGATIVO");
+		if (num < 0) {
+			System.out.println("NEGATIVO");
 		}
 		else {
-			System.out.println("NEGATIVO");
+			System.out.println("NAO NEGATIVO");
 		}
 		
 		sc.close();

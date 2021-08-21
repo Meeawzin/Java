@@ -5,34 +5,35 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner (System.in);
+		Locale.setDefault (Locale.US);
 		
-		int cod, quant;
-		double valor;
+		Scanner sc = new Scanner(System.in);
+
+		int codigo = sc.nextInt();
+		int quantidade = sc.nextInt();
 		
-		cod = sc.nextInt();
-		quant = sc.nextInt();
-				
-		if (cod == 1) {
-			valor = 4.00 * quant;	
+		double total;
+		if (codigo == 1) {
+			total = quantidade * 4.0;
 		}
-		else if (cod == 2) {
-			valor = 4.50 * quant;	
+		else if (codigo == 2) {
+			total = quantidade * 4.5;
 		}
-		else if (cod == 3) {
-			valor = 5.00 * quant;	
+		else if (codigo == 3) {
+			total = quantidade * 5.0;
 		}
-		else if (cod == 4) {
-			valor = 2.00 * quant;	
+		else if (codigo == 4) {
+			total = quantidade * 2.0;
 		}
 		else {
-			valor = 1.50 * quant;	
+			total = quantidade * 1.5;
 		}
-		
-		System.out.printf("Total: R$ %.2f%n", valor);
 
+		System.out.printf("Total: R$ %.2f%n", total);
+		
 		sc.close();
+		
+		
 	}
 
 }
