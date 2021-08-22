@@ -6,34 +6,34 @@ public class Main {
 	public static void main(String[] args) {
 
 		Locale.setDefault (Locale.US);
-		
 		Scanner sc = new Scanner(System.in);
 
-		int codigo = sc.nextInt();
-		int quantidade = sc.nextInt();
-		
+		int cod, quant;
 		double total;
-		if (codigo == 1) {
-			total = quantidade * 4.0;
-		}
-		else if (codigo == 2) {
-			total = quantidade * 4.5;
-		}
-		else if (codigo == 3) {
-			total = quantidade * 5.0;
-		}
-		else if (codigo == 4) {
-			total = quantidade * 2.0;
-		}
-		else {
-			total = quantidade * 1.5;
-		}
+		
+		cod = sc.nextInt();
+		quant = sc.nextInt();
+		
 
-		System.out.printf("Total: R$ %.2f%n", total);
+		if (cod == 1) {
+			total = quant * 4.00;
+		}
+		else if (cod == 2) {
+			total = quant * 4.50;	
+		}
+		else if (cod == 3) {
+			total = quant * 5.00;
+		}
+		else if (cod == 4) {
+			total = quant * 2.00;
+		}
+		else  {
+			total = quant * 1.50;
+		}
+		
+		System.out.printf("Total: R$ %.2f%n ", total);
 		
 		sc.close();
-		
-		
 	}
 
 }

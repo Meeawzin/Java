@@ -15,6 +15,7 @@ public class Main {
 		System.out.println("IMPAR");
 	}
 	
+	
 	sc.close();
 	
 	}
