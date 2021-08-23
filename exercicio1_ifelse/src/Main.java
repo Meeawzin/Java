@@ -8,11 +8,11 @@ public class Main {
 		
 		int num = sc.nextInt();
 		
-		if (num >= 0) {
-			System.out.println("NAO NEGATIVO");
+		if (num <0) {
+			System.out.println("NEGATIVO");
 		}
 		else {
-			System.out.println("NEGATIVO");
+			System.out.println("NAO NEGATIVO");
 		}
 		
 		sc.close();

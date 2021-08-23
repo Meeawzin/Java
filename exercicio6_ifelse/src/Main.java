@@ -8,24 +8,22 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner (System.in);
 		
-		double valor = sc.nextDouble();
+		double num = sc.nextDouble();
 		
-		if (valor < 0 || valor > 100) {
+		if (num < 0 || num > 100) {
 			System.out.println("Fora de intervalo");
 		}
-		else if (valor <= 25) {
-			System.out.println("Intervalo [0,25]");
+		else if (num <= 25) {
+			System.out.println("Intervalo 0,25");
 		}
-		else if (valor <= 50) {
-			System.out.println("Intervalo [25,50]");
-		}
-		else if (valor <= 75) {
-			System.out.println("Intervalo [50,75]");
+		else if (num <= 50) {
+			System.out.println("Intervalo 25,50");
 		}
 		else {
-			System.out.println("Intervalo [75,100]");
+			System.out.println("Intervalo 75,100");
 		}
 		
+			
 		sc.close();
 	}
 

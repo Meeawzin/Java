@@ -6,16 +6,16 @@ public class Main {
 
 		Scanner sc = new Scanner (System.in);
 		
-		int x, y, soma;
+		int x, y,res;
 		
 		x = sc.nextInt();
 		y = sc.nextInt();
-		soma = x + y;
 		
-		System.out.println("SOMA = " + soma);
+		res = x + y;
+		
+		System.out.println("SOMA = " + res);
 		
 		sc.close();
-		
 	}
 
 }

@@ -9,16 +9,16 @@ public class Main {
 		int inicio, fim, dura;
 		
 		inicio = sc.nextInt();
-		fim =  sc.nextInt();
+		fim = sc.nextInt();
 		
-		if (fim > inicio) {
-			dura = fim - inicio;
-		}
-		else {
+		if (inicio >= fim) {
 			dura = 24 - inicio + fim;
 		}
-		
-		System.out.println("O JOGO DUROU " + dura + " HORA(S) ");
+		else {
+			dura = fim - inicio;
+		}
+	
+		System.out.printf("O JOGO DUROU " + dura + " HORA(S)");
 		
 		sc.close();
 		

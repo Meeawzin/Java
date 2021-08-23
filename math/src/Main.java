@@ -15,8 +15,10 @@ public class Main {
 		A = Math.sqrt(x);
 		B = Math.sqrt(y);
 		
-		System.out.println("a raiz quadrade de " + x + " = " + A);
-		System.out.println("a raiz quadrade de " + y + " = " + B);
+		System.out.println("A RAIZ QUADRADA DE " + x + " = " + A);
+		System.out.println("A RAIZ QUADRADA DE " + y + " = " + B);
+
+		System.out.println();
 		
 		A = Math.pow(x,y);
 		

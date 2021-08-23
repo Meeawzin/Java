@@ -9,17 +9,16 @@ public class Main {
 
 		Scanner sc = new Scanner (System.in);
 		
+		int num, horas;
+		double valorh, salario;
 		
-		int numero, horas;
-		double valor, salario;
-		
-		numero = sc.nextInt();
+		num = sc.nextInt();
 		horas = sc.nextInt();
-		valor = sc.nextDouble();
-		salario = horas * valor;
-				
-		System.out.println("NUMBER = " + numero);
-		System.out.printf("SALARY = U$ %.2f%n", salario);
+		valorh =  sc.nextDouble();
+		salario = valorh * horas;
+		
+		System.out.println("NUMBER = " + num);
+		System.out.printf("SALARY = U$%.2f%n ", salario);
 		
 		sc.close();
 		

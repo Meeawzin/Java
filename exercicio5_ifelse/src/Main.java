@@ -14,12 +14,11 @@ public class Main {
 		cod = sc.nextInt();
 		quant = sc.nextInt();
 		
-
 		if (cod == 1) {
 			total = quant * 4.00;
 		}
 		else if (cod == 2) {
-			total = quant * 4.50;	
+			total = quant * 4.50;
 		}
 		else if (cod == 3) {
 			total = quant * 5.00;
@@ -27,11 +26,10 @@ public class Main {
 		else if (cod == 4) {
 			total = quant * 2.00;
 		}
-		else  {
+		else {
 			total = quant * 1.50;
 		}
-		
-		System.out.printf("Total: R$ %.2f%n ", total);
+		System.out.printf("Total: R$ %.2f%n", total);
 		
 		sc.close();
 	}

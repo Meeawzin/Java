@@ -13,13 +13,12 @@ public class Main {
 		B = sc.nextInt();
 		C = sc.nextInt();
 		D = sc.nextInt();
+		
 		dif = (A * B - C * D);
 		
-		System.out.println("DIFERENÇA= " + dif);
-		
+		System.out.println("DIFERENCA = " + dif);
+
 		sc.close();
-		
-		
 
 	}
 
