@@ -6,14 +6,16 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int num = sc.nextInt();
+		int num;
+		num = sc.nextInt();
+		
 		String dia;
 		
 		switch (num) {
 		case 1: 
 			dia = "domingo";
 			break;
-		case 2:
+		case 2: 
 			dia = "segunda";
 			break;
 		case 3:
@@ -25,11 +27,12 @@ public class Main {
 		case 5:
 			dia = "quinta";
 			break;
-		case 6:
+		case 6: 
 			dia = "sexta";
 			break;
+			
 		default:
-			dia = "valor invalido";
+			dia = "invalido";
 			break;
 		}
 		
