@@ -13,28 +13,30 @@ public class Main {
 		
 		switch (num) {
 		case 1: 
-			dia = "domingo";
+			dia = "Domingo";
 			break;
-		case 2: 
-			dia = "segunda";
+		case 2:
+			dia = "Segunda";
 			break;
-		case 3:
-			dia = "terça";
+		case 3: 
+			dia = "Terça";
 			break;
 		case 4:
-			dia = "quarta";
+			dia = "Quarta";
 			break;
 		case 5:
-			dia = "quinta";
+			dia = "Quinta";
 			break;
-		case 6: 
-			dia = "sexta";
+		case 6:
+			dia = "Sexta";
+			break;
+		default:
+			dia = "Invalido";
 			break;
 			
-		default:
-			dia = "invalido";
-			break;
+		
 		}
+	
 		
 		System.out.println(dia);
 		

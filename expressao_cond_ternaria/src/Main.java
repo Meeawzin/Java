@@ -5,7 +5,7 @@ public class Main {
 
 		
 		double preco = 34.5;
-		double desconto = (preco < 40) ? preco * 0.5 : preco * 0.8; 
+		double desconto = (preco < 40) ? preco * 0.5 : preco * 0.6;
 		
 		System.out.println(desconto);
 		

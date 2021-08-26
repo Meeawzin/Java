@@ -19,7 +19,6 @@ public class Main {
 		System.out.printf("PRECO = %.2f%n", preco);
 
 		sc.close();
-
 	}
 
 }
