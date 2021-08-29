@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// este exercício foi feito no caderno "pela segunda vez dia 28"
+		// este exercício foi feito no caderno "pela terceira vez dia 29"
 
 		double x, y ;
 
