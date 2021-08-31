@@ -9,10 +9,9 @@ public class Main {
 		int senha = sc.nextInt();
 		
 		while (senha != 2002) {
-			System.out.println("Senha Invalida");
+			System.out.println("Senha invalida");
 			senha = sc.nextInt();
 		}
-		
 		System.out.println("Acesso permitido");
 		
 		sc.close();
