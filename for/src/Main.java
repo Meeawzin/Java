@@ -15,6 +15,7 @@ public class Main {
 			soma += x;
 		}
 		
+		
 		System.out.println(soma);
 		
 		sc.close();
