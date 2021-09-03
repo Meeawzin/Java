@@ -3,6 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		// exercicio feito no caderno pela terceira vez dia 03/08
+
 		int y,i;
 	
 		y = 10;
