@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 
+	// exercicios de mesa e revisão 08/09
+	
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner (System.in);
@@ -17,6 +19,7 @@ public class Main {
 			System.out.println("6th bit if false!");
 			
 		}
+		
 		sc.close();
 	}
 
