@@ -6,7 +6,7 @@ public class main {
 		
 		//exercicio de fixação sysout formatação
 		
-		String product1 = "Computer";
+		String product1 = "Computer"; 
 		String product2 = "Office desk";
 		
 		int age = 30;
