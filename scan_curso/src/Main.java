@@ -14,17 +14,13 @@ public class Main {
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
-
-		System.out.println("Dados inseridos:");
-		System.out.println("IDADE: " + x);
-		System.out.println("1 NOME:" + s1);
-		System.out.println("2 NOME:" + s2);
-		System.out.println("3 NOME:" + s3);
-
+		
+		System.out.println("Dados inseridos: ");
+		System.out.println("Idade: " + x);
+		System.out.println("1 Nome: " +s1);
+		System.out.println("2 Nome: " +s2);
+		System.out.println("3 Nome: " +s3);
 		
 		sc.close();
-		
-		
-		
 	}
 }
