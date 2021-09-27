@@ -8,11 +8,11 @@ public class Main {
 		
 		int senha = sc.nextInt();
 		
-		while (senha != 2002) {
-			System.out.println("Senha invalida");
+		while (senha != 15) {
+			System.out.println("Senha inválida");
 			senha = sc.nextInt();
 		}
-		System.out.println("Acesso permitido");
+		System.out.println("Senha correta");
 		
 		sc.close();
 		
