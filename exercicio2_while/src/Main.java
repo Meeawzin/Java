@@ -6,29 +6,29 @@ public class Main {
 
 		Scanner sc = new Scanner (System.in);
 		
-		int x, y;
+		int x,y;
 		
 		x = sc.nextInt();
 		y = sc.nextInt();
 		
 		while (x != 0 && y != 0) {
 			if (x > 0 && y > 0) {
-				System.out.println("primeiro");
+				System.out.println("Primeiro quadrante");
 			}
 			else if (x < 0 && y > 0) {
-				System.out.println("segundo");
+				System.out.println("Segundo quadrante");
 			}
 			else if (x < 0 && y < 0) {
-				System.out.println("terceiro");
+				System.out.println("Terceiro quadrante");
 			}
 			else {
-				System.out.println("quarto");
+				System.out.println("Quarto quadrante");
 			}
+				
 			x = sc.nextInt();
-			y = sc.nextInt();
+			y = sc.nextInt();		
 		}
 		
 		sc.close();
 	}
-
 }
