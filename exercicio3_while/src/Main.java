@@ -6,14 +6,13 @@ public class Main {
 
 		Scanner sc = new Scanner (System.in);
 		
-		int alcool, gasolina, diesel;
+		int alcool, gasolina, diesel, cod;
 		
 		alcool = 0;
 		gasolina = 0;
 		diesel = 0;
 		
-		int cod = sc.nextInt();
-
+		cod = sc.nextInt();
 		
 		while (cod != 4) {
 			if (cod == 1) {
@@ -25,15 +24,16 @@ public class Main {
 			else if (cod == 3) {
 				diesel += 1;
 			}
-				cod = sc.nextInt();
+			
+			cod = sc.nextInt();
 		}
 		
-		System.out.println("MUITO OBRIGADO");
+		System.out.println("Muito obrigado!");
 		System.out.println("Alcool: " + alcool);
 		System.out.println("Gasolina: " + gasolina);
 		System.out.println("Diesel: " + diesel);
+
 		
 		sc.close();
-
 	}
 }
