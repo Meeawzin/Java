@@ -8,7 +8,7 @@ public class Main {
 		Locale.setDefault(Locale.US);
 
 		Scanner sc = new Scanner (System.in);
-	
+		
 		double raio, area;
 		
 		raio = sc.nextDouble();
