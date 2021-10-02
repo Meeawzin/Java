@@ -6,13 +6,16 @@ public class Main {
 
 	Scanner sc = new Scanner (System.in);
 	
-	int num = sc.nextInt();
+	int num;
+	
+	num = sc.nextInt();
 	
 	if (num % 2.0 == 0) {
 		System.out.println("PAR");
 	}
+	
 	else {
-		System.out.println("IMPAR");
+		System.out.println("Impar");
 	}
 	
 	sc.close();
