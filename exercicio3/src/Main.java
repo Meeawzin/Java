@@ -7,7 +7,7 @@ public class Main {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		int A, B, C, D, dif;
+		int A, B, C, D, dif ;
 		
 		A = sc.nextInt();
 		B = sc.nextInt();
