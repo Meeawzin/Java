@@ -7,7 +7,7 @@ public class Main {
 		/*
 		Este programa blablabla
 		
-		Os valores blablabla	
+		Os valores blablabla
 		 */
 	Locale.setDefault(Locale.US); //Esta linha blablabla
 	}

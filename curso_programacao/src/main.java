@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		//exercicio de fixação sysout formatação
+		// exercicio de fixação sysout formatação
 		
 		String product1 = "Computer"; 
 		String product2 = "Office desk";
