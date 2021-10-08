@@ -15,7 +15,7 @@ public class Main {
 		
 		System.out.println("SOMA = " + res);
 		
-		sc.close();
+		sc.close(); 
 	}
 
 }
